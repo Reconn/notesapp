@@ -2,8 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import Train from './assets/Train.JPG'
 import Thisone from './assets/Thisone.JPG'
-import loveheart from './assets/LoveHeart.JPG'
 import thatone from './assets/thatone.JPG'
+import LoveHeart from './assets/LoveHeart.JPG'
 import viteLogo from '/vite.svg'
 import './App.css'
 
@@ -17,7 +17,7 @@ function App() {
         <img src={Thisone} className="logolarge react" alt="React logo" /> 
         <img src={thatone} className="logolarge react" alt="React logo" />       
         <h1>Te quiero mi amor</h1>
-        <img src={loveheart} className="logo react" alt="React logo" />  
+        <img src={LoveHeart} className="logo react" alt="React logo" />  
       </header>
     </div>
   );
